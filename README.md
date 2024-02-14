@@ -1,4 +1,4 @@
-# eth
+# ETH
 
 ## Dork:
 ei duita te beshi kaj hobe.
